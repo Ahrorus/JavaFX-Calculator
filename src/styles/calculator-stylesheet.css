@@ -1,0 +1,8 @@
+.number-button {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.operator-button {
+    -fx-font-size: 18px;
+}

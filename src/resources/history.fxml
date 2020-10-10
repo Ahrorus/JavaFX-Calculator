@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HistoryController">
+   <center>
+      <TitledPane collapsible="false" prefHeight="400.0" prefWidth="600.0" text="Calculation History" BorderPane.alignment="CENTER">
+         <content>
+            <ListView fx:id="historyList" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+      </TitledPane>
+   </center>
+</BorderPane>
